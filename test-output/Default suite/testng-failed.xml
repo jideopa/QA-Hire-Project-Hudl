@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hudl.qa.test.HomepageTest">
+        <methods>
+          <include name="validate_videoLink_isDisplay"/>
+          <include name="validate_HighligthtLink_isDisplay"/>
+          <include name="validate_homeIcon_isDisplay"/>
+          <include name="setup"/>
+          <include name="validate_profile_isDisplay"/>
+          <include name="tearDown"/>
+          <include name="validate_reportLink_isDisplay"/>
+        </methods>
+      </class> <!-- com.hudl.qa.test.HomepageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
