@@ -42,7 +42,7 @@ public class NegativeLoginTest extends Base {
 
     @Test(priority=1)
 	public void validate_unsucceful_login() throws Exception {
-    	testLogger=extent.createTest("Validate login");
+    	testLogger=extent.createTest("Validate unsucceful login");
     	loginpage.enter_credentialAndLogin(props.getProperty("invalidemail"), props.getProperty("validPassword"));
         
     	try {
